@@ -396,6 +396,69 @@
                         <use  href="./images/sprite.svg#icon-btn-close"></use>
                     </svg>
                 </button>
+                <form class="form-content">
+                    <h4 class="main-form-title">
+                        Оставьте свои данные, мы вам перезвоним
+                    </h4>
+                    <div class="form-polax">
+                        <label for="user-name" class="user-lable">
+                            <span class="form-title">
+                                Имя
+                            </span>
+                          
+                        </label>
+                        <svg class="icone-modal">
+                            <use href="./images/sprite.svg#icon-user"></use>
+                        </svg>
+                        <input type="text"
+                        name="name"
+                        id="user-name"
+                        >
+                    </div>
+                    <div class="form-polax">
+                        <label for="tel" class="form-title">
+                            Телефон
+                        </label>
+                        <svg class="icone-modal">
+                            <use href="./images/sprite.svg#handset"></use>
+                        </svg>
+                        <input type="tel"
+                        pattern="[0-9]{5,10}"
+                        name="tel"
+                        id="tel">
+                    </div>
+                    <div class="form-polax">
+                        <label for="mail" class="form-title">
+                            Почта
+                        </label>
+                       <svg class="icone-modal">
+                           <use href="./images/sprite.svg#address-mail"></use>
+                       </svg>
+                        <input type="email" 
+                        name="mail"
+                        id="mail">
+                    </div>
+                    <div class="form-polax">
+                        <label for="comments" class="form-title">
+                            Комментарий
+                        </label>
+                        <textarea name="comments" id="comments" class="comments" placeholder="Введите текст">
+                        </textarea>
+                    </div>
+                    <div class="form-action">
+                        <div class="policy">
+                            <input type="checkbox"
+                            class="checkbox visually-hidden"
+                            name="policy" 
+                            id="policy"/>
+                            <label for="policy" class="checkbox-lable">Соглашаюсь с рассылкой и принимаю <a href="#" class="checkbox-link">Условия договора</a> 
+                            </label>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" class="submit-btn">Отправить</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div> 
         <script src="./js/modal.js"></script>
