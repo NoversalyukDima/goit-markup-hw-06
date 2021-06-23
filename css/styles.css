@@ -343,6 +343,7 @@ color: #FFFFFF;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   cursor: pointer;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -403,6 +404,7 @@ color: #FFFFFF;
   
   display: flex;
   align-items: center;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -421,6 +423,10 @@ color: #FFFFFF;
 
 .header-list-icone {
   margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /*end header*/
@@ -623,6 +629,11 @@ background: rgba(47, 48, 58, 0.8);
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+
+  transition-property: fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .social-list {
@@ -645,7 +656,8 @@ background: rgba(47, 48, 58, 0.8);
 
   background-color: var(--white-color);
   border-radius: 50%;
-   transition-duration: 500ms;
+  transition-property: background-color;
+   transition-duration: 2500ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -796,6 +808,7 @@ background: rgba(47, 48, 58, 0.8);
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -819,6 +832,99 @@ background: rgba(47, 48, 58, 0.8);
   fill: var(--white-color);
 }
 
+.mail-input {
+  margin-left: auto;
+}
+
+.form-subscribe {
+  display: flex;
+  align-items: flex-end;
+}
+
+.input-form {
+  margin-right: 12px;
+}
+
+.mail-input-title {
+  font-family: var(--text);
+font-weight: 700px;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+margin-bottom: 20px;
+}
+
+.input-email {
+  Width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: transparent;
+
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 16px;
+
+transition-property: background-color, outline-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+ 
+.input-email:focus {
+  background-color: var(--white-color);
+}
+
+.input-email:focus {
+  outline-color: var(--accent-color);
+}
+
+.input-email::placeholder {
+  font-family: var(--text);
+font-weight: 400px;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+.submit-Telegram-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+
+  font-family: var(--text);
+font-weight: 700px;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+
+color: var(--white-color);
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+
+.icone-Telegram {
+  width: 24px;
+  height: 24px;
+  padding-left: 10px;
+
+  fill: var(--white-color);
+}
 /*end footer*/
 
 /*========= end title Web Studio =========*/
