@@ -657,7 +657,7 @@ background: rgba(47, 48, 58, 0.8);
   background-color: var(--white-color);
   border-radius: 50%;
   transition-property: background-color;
-   transition-duration: 2500ms;
+   transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -921,7 +921,7 @@ border-radius: 4px;
 .icone-Telegram {
   width: 24px;
   height: 24px;
-  padding-left: 10px;
+  margin-left: 10px;
 
   fill: var(--white-color);
 }
